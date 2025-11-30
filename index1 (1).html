@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Remedial English - Newscasting</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f6f8fb;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+    .container {
+      width: 900px;
+      max-width: 95%;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 6px 24px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    h1 { margin: 0; }
+    .subtitle { margin-bottom: 20px; color: #555; }
+
+    /* 16:9 Responsive Video */
+    .video-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%;
+      height: 0;
+      border-radius: 6px;
+      overflow: hidden;
+    }
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    /* Submitted section */
+    .submitted-info {
+      text-align: left;
+      margin-top: 20px;
+      color: #333;
+      font-size: 14px;
+    }
+    .submitted-info ul {
+      list-style: none;
+      padding: 0;
+      margin: 5px 0 15px 0;
+    }
+    .submitted-info li {
+      margin: 2px 0;
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 14px;
+      color: #555;
+    }
+    footer a {
+      color: #0d6efd;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* Buttons */
+    .btn {
+      margin-top: 15px;
+      padding: 10px 15px;
+      background: #0d6efd;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 15px;
+    }
+
+    .btn:hover {
+      background: #0b5ed7;
+    }
+
+    /* Script Page */
+    #scriptPage {
+      display: none;
+      width: 900px;
+      max-width: 95%;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 6px 24px rgba(0,0,0,0.1);
+    }
+
+    #scriptPage h2 {
+      margin-top: 0;
+    }
+
+    #scriptContent {
+      white-space: pre-wrap;
+      text-align: left;
+      line-height: 1.5;
+    }
+
+    .back-btn {
+      margin-top: 20px;
+      padding: 10px 15px;
+      background: #555;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .back-btn:hover {
+      background: #333;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- MAIN PAGE -->
+  <div class="container" id="mainPage">
+    <h1>REMEDIAL ENGLISH NEWSCASTING</h1>
+    <p class="subtitle">BSIT 1-C</p>
+
+    <!-- VIDEO -->
+    <div class="video-container">
+      <iframe 
+        src="https://www.youtube.com/embed/FT_zDeIp_lw?rel=0&modestbranding=1&controls=1"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <!-- VIEW SCRIPT BUTTON (Moved here) -->
+    <button class="btn" onclick="showScript()">View Script</button>
+
+    <!-- Submitted Section -->
+    <div class="submitted-info">
+      <p><strong>Submitted by:</strong></p>
+      <ul>
+        <li><b>Dayondon, Ana Mie</b> - Anchor 3/Reporter 5/Script wirter</li>
+        <li><b>Delima, Kyle</b> - Reporter 2</li>
+        <li><b>Gomez, Ritch Ivan</b> - Reporter3</li>
+        <li><b>Gonzales, Oliver</b> - Reporter 1</li>
+        <li><b>Saducas, Jeabo Ray</b> - Anchor 1/Editor/Script writer</li>
+        <li><b>Yagonia, John Paul</b> - Reporter 4</li>
+        <li><b>Canape, John Andrei </b>- Anchor 2/Editor</li>
+      </ul>
+
+      <p><strong>Submitted to:</strong></p>
+      <p>Ms. Angelica Cabatingan</p>
+    </div>
+
+  </div>
+
+  <!-- SCRIPT PAGE -->
+  <div id="scriptPage">
+    <h2>Newscasting Script</h2>
+    <h4>'Back' button at the bottom</h4>
+
+    <div id="scriptContent">
+<b>ANCHOR 1:</b> Welcome to The Peak News Report! We are broadcasting live from the Peak News Information Center, now available on your screens and online.<br>
+<b>ANCHOR 2:</b> Bringing you the latest and the hottest news—<br>
+<b>ANCHOR 3:</b> Undeniable commentaries—
+ SADUCAS[ANCHOR 1]: And the shocking truth!<br> 
+<b>ALL ANCHORS:</b> Proud member of the K.B.P., Kapisanan ng mga Broadcasters ng Pilipinas!<br>
+<b>ANCHOR 2:</b> Audio-educating the nation — we speak for the truth, informing the people.<br>
+<b>ANCHOR 3:</b> Good afternoon, Pilipinas!<br> 
+<b>ANCHOR 2:</b> From the Heritage City of Cebu to the world — good afternoon!<br> 
+<b>ANCHOR 3:</b> Today is the 27th day of November 2025. I am Ana Mie Dayondon.<br> 
+<b>ANCHOR 2:</b> I’m John Andrei Canape.<br> 
+<b>ANCHOR 1:</b> And I’m Jeabo Ray Saducas.<br>
+<b>ALL ANCHORS:</b> In today’s headlines--<br> <b>ANCHOR 3:</b> 🔴 Live Coverage: Oxygen Crisis Sparks Protests, Demands for Environmental Policy Changes.<br>
+<b>ANCHOR 1:</b> We begin with our top story. Environmental advocates across the country are raising their voices following the alarming “oxygen crisis” that’s now making headlines worldwide. For more details, we go live to our field correspondent.<br> 
+<b>ANCHOR 3:</b> Here’s Gonzales, live on the ground.<br>
+<b>REPORTER 1:</b> Thank you, DAYONDON. I’m reporting live from the Cebu City Central Park, where hundreds of students, local residents, and environmental groups have gathered today to demand urgent action from the government. Protesters are calling for stricter environmental regulations and immediate reforestation efforts, following recent reports of declining air quality across major urban areas. Many participants are carrying banners saying “Save Our Air” and “No Trees, No Life.” Local police say the rally has remained peaceful so far, with proper coordination between organizers and authorities. This is Oliver Gonzales, Back to you in the Peak studio.<br> 
+<b>ANCHOR 2:</b> Thank you, Gonzales. Truly, this growing environmental concern shows how deeply people care about our planet’s future. Now, to understand how this crisis began and what experts are saying, here’s Kyle Delima with the full headline story.<br>
+<b>REPORTER 2:</b> Thank you, Canape. According to the Department of Environment and Natural Resources, the so-called “oxygen crisis” refers to the rising levels of air pollution and deforestation leading to reduced oxygen production from our forests. Experts warn that if left unaddressed, the crisis could worsen respiratory illnesses and impact climate stability. Environmentalists emphasize that industrial emissions, vehicle smoke, and illegal logging are among the primary causes. In response, lawmakers are now pushing for a new “Clean Air and Green Future Act,” which aims to increase reforestation programs and limit factory emissions nationwide. President Ferdinand Marcos Jr. has also released a statement urging collaboration between government and citizens to protect the environment. This is Kyle Delima, keeping you informed on the ongoing Peak field situation. Back to you, anchors.<br> 
+<b>ANCHOR 1:</b> Thank you, Delima for that in-depth report. Truly, the oxygen crisis reminds us all how important it is to take care of our natural resources.<br> 
+<b>ANCHOR 2:</b> And now, moving on to sports — as environmental protests continue, athletes are also making waves in their own fields. For more updates, here’s Ritch Ivan Gomez with the latest Peak sports news.<br>
+<b>REPORTER 3:</b> Thank you, Canape In today’s sports news, the National School Athletics Meet opened earlier this morning in Mandaue City, bringing together over 5,000 student-athletes from all over the region. Despite concerns over the warm weather, players remained energetic, showcasing their skills in track and field, basketball, and volleyball. Meanwhile, Cebu’s very own Starlight High basketball team has advanced to the semifinals after a stunning 89-74 victory against Northfield Academy. Coaches are also taking the opportunity to remind young athletes about maintaining physical and mental health, especially amid growing environmental concerns that also affect air quality during outdoor training. That’s the latest from the world of Peak sports. this is Ritch Ivan Gomez, Back to you.<br> 
+<b>ANCHOR 3:</b> Thank you, Gomez. It’s great to see young athletes continue to shine while staying mindful of the environment. Now, let’s turn our attention to the skies. For those planning to head out this weekend, here’s John Paul Yagonia with the weather forecast.<br>
+<b>REPORTER 4:</b> Good afternoon! Here’s your latest weather update. A tropical disturbance has been spotted south of visayas bringing moderate to heavy rainfall across parts of Visayas over the next 48 hours. Heavy rains brought by the storm caused floods in several barangays of carcar City- particularly in low-lying and spill way- adjacent zones.<br>
+Sadly, there was an exception an 18 year old man drowned while fishing at the mouth of a river in Sitio bacsije Barangay Ocana after rains caused the river to swell. Lets interview some of the relatives of the typhoon victim.<br>
+ 	(CONVERSATION WITH RELATIVES)<br>
+<b>ANCHOR 1:</b> Thank you for the Peak update, Yagonia. Now before we wrap up, let’s take a quick look at the latest happenings in showbiz and entertainment. Here’s Ana Dayondon for the Peakaboo entertainment news.<br> 
+ 	
+<b>REPORTER 5:</b> Thank you, anchors. In Peakaboo entertainment news — young stars are using their influence to promote environmental awareness. Award-winning actress Kathryn Bernardo recently led a charity concert titled “Breathe Again”, with proceeds going to nationwide tree-planting initiatives. Meanwhile, international band BTS also shared their message of hope and sustainability in a recent global event, urging fans to “heal the world through action.” Locally, several Cebu-based filmmakers are now producing short documentaries highlighting the effects of air pollution and how communities are fighting back. Entertainment with purpose — proving that art truly has the power to inspire change. Back to you, anchors.<br> 
+<b>ANCHOR 1:</b> Thank you, Dayondon. What a great way to end our program — a reminder that everyone, even in entertainment, can make a difference.<br> 
+<b>ANCHOR 3:</b> Indeed. From local protests to sports and entertainment, today’s stories remind us that every small effort counts in building a Peakable tomorrow.<br>
+<b>ANCHOR 2:</b> And that concludes our news for today. I am John Andrei Canape.<br> 
+<b>ANCHOR 1:</b> Speaking for Peak truth, I am Jeabo Ray Saducas. 
+<b>ANCHOR 3:</b> Reporting for the Peakable people, I am Ana Mie Dayondon.<br> 
+ <b>ALL ANCHORS:</b> This has been The Peak News, proudly serving you - informing, inspiring, and standing for truth. Good afternoon, Pilipinas!.
+    </div>
+
+    <button class="back-btn" onclick="goBack()">Back</button>
+  </div>
+
+  <footer>
+    © 2025 <a href="https://saducasjeaboo.github.io/my-web/" target="_blank">Jeabo Ray Saducas</a>. All rights reserved.
+  </footer>
+
+  <script>
+    function showScript() {
+      document.getElementById("mainPage").style.display = "none";
+      document.getElementById("scriptPage").style.display = "block";
+    }
+
+    function goBack() {
+      document.getElementById("scriptPage").style.display = "none";
+      document.getElementById("mainPage").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
